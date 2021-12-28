@@ -1,11 +1,8 @@
 """
     Visão Computacional
-    Alunos: Lucas da Silva Lima - 1515080170, Luiz Henrique Barroso - ....
+    Alunos: Lucas da Silva Lima - 1515080170, Luiz Henrique Barros - ....
     Universidade do Estado do Amazonas
     Escola Superior de Tecnologia
-
-    Ty William Freitas for a little help to make it works
-
 """
 import face_recognition
 import cv2
@@ -15,10 +12,10 @@ video_capture = cv2.VideoCapture(0)
 lucas = face_recognition.load_image_file("lucas.jpeg")
 lucas_enc = face_recognition.face_encodings(lucas)[0]
 
-another = face_recognition.load_image_file("luiz.jpeg")
-another_enc = face_recognition.face_encodings(another)[0]
+luiz = face_recognition.load_image_file("luiz.jpeg")
+luiz_enc = face_recognition.face_encodings(luiz)[0]
 
-known_face_encodings = [lucas_enc, another_enc ]
+known_face_encodings = [lucas_enc, luiz_enc ]
 known_face_names = ["lucas", "luiz"]
 
 face_locations = []
