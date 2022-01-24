@@ -1,8 +1,8 @@
 """
     Visão Computacional
-    Alunos: Lucas da Silva Lima - 1515080170, 
-    Luiz Henrique Barros de Souza - 1515080172 ,
-    Nicolas Fernandes Lima - 1615080429
+    Alunos: Lucas da Silva Lima, 
+    Luiz Henrique Barros de Souza,
+    Nicolas Fernandes Lima
     Universidade do Estado do Amazonas
     Escola Superior de Tecnologia
 """
